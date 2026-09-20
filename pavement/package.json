@@ -1,0 +1,17 @@
+{
+  "name": "airport-pavement-catalog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "机场道面病害编目系统 - 巡查影像按跑道里程定位、自动去重、可检索病害档案库",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "node --watch server/index.js",
+    "start": "node server/index.js",
+    "seed": "node server/seed.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "sql.js": "^1.13.0"
+  }
+}
